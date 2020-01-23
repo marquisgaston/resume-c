@@ -23,7 +23,7 @@ class Header extends Component {
 
          <ul id="nav" className="nav" style={{backgroundImage: "linear-gradient(black, rgba(0,0,0,.8), rgba(0,0,0,.7), rgba(0,0,0,.1), rgba(0,0,0,0))"}}>
             <li style={{color: "white", marginRight: "6em"}}>Marquis J Gaston</li>
-            <li><a className="smoothscroll" href="http://minnmax.netlify.com">My Bottega Capstone Project</a></li>
+            <li><a href="http://minnmax.netlify.com">My Bottega Capstone Project</a></li>
             |
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
