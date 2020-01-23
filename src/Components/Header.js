@@ -23,7 +23,7 @@ class Header extends Component {
 
          <ul id="nav" className="nav" style={{backgroundImage: "linear-gradient(black, rgba(0,0,0,.8), rgba(0,0,0,.7), rgba(0,0,0,.1), rgba(0,0,0,0))"}}>
             <li style={{color: "white", marginRight: "6em"}}>Marquis J Gaston</li>
-            <li><a className="smoothscroll" href="#portfolio">My Portfolio</a></li>
+            <li><a className="smoothscroll" href="http://minnmax.netlify.com">My Bottega Capstone Project</a></li>
             |
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
@@ -36,7 +36,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3 style={{backgroundColor: "rgba(0,0,0,0.5)", borderRadius: "10px"}}>I'm a {city} based <span>{occupation}</span>.<br/> {description}<a style={{color: "orange"}}>CLICK HERE TO CHECKOUT MY PORTFOLIO</a>.</h3>
+            <h3 style={{backgroundColor: "rgba(0,0,0,0.5)", borderRadius: "10px"}}>I'm your next {city} based <span>{occupation}</span>.<br/> {description} <a style={{color: "orange", fontWeight: "600"}} href="http://minnmax.netlify.com">CLICK HERE TO CHECKOUT MY CAPSTONE PROJECT </a>.</h3>
             <hr />
             <ul className="social">
                {networks}
